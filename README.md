@@ -77,42 +77,32 @@ Java: Version 8 or above.
 Maven: To build and manage dependencies.
 IDE: IntelliJ IDEA, Eclipse, or any similar IDE.
 Database: MySQL, PostgreSQL, or H2.
-Installation Steps
-Clone the repository:
 
-bash
-Copy code
+## Installation Steps
+1. Clone the repository:
 git clone https://github.com/Amitkumar-Vaghela/Springboot_CRUD.git
-Navigate to the project directory:
-
-bash
-Copy code
+2. Navigate to the project directory:
 cd Springboot_CRUD
-Build the project using Maven:
-
-bash
-Copy code
+3.Build the project using Maven:
 mvn clean install
+
 Configure your database connection in application.properties:
 
-properties
-Copy code
+## properties
 spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-Run the application:
 
-bash
-Copy code
+## Run the application:
 mvn spring-boot:run
-Access the application on your browser or via Postman:
 
-Default URL: http://localhost:8080
-📂 Project Structure
-plaintext
-Copy code
+## Access the application on your browser or via Postman:
+Default URL: http://localhost:8080\
+
+## 📂 Project Structure
+
 src/
 ├── main/
 │   ├── java/
