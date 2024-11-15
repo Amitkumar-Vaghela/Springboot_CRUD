@@ -16,8 +16,7 @@ Maven
 An IDE (IntelliJ, Eclipse, or similar)
 
 ## Installation Steps
-
-1. Clone the repository:
+1.Clone the repository:
 git clone https://github.com/Amitkumar-Vaghela/Springboot_CRUD.git
 
 2.Navigate to the project directory:
